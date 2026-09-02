@@ -1,0 +1,39 @@
+{
+  "name": "genpark-personalized-video-sales-outreach-script-planner-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Personalized video sales outreach script and storyboard planner synthesizing targeted 1-to-1 dynamic video pitch templates.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "genpark",
+  "category": "sales-automation",
+  "tags": [
+    "video-sales",
+    "tavus-style",
+    "personalized-outreach",
+    "script-planner",
+    "sales-agent"
+  ],
+  "inputs": {
+    "prospect_profile": {
+      "type": "object"
+    },
+    "value_proposition": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "video_pitch_plan_id": {
+      "type": "string"
+    },
+    "estimated_duration_seconds": {
+      "type": "integer"
+    },
+    "personalized_opening_hook": {
+      "type": "string"
+    },
+    "storyboard_timeline_dossier_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
